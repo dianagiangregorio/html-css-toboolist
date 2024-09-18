@@ -1,7 +1,25 @@
+/**************
+Common style
+**************/
 * {
 margin: 0;
 }
 
 body {
     background-color: rgb(237, 237, 237);
+}
+
+.container {
+    padding: 0 15px;
+}
+
+/**************
+Header style
+**************/
+header {
+    background-color: white;
+}
+
+img {
+    height: 40px;
 }
