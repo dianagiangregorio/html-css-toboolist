@@ -23,3 +23,28 @@ header {
 img {
     height: 40px;
 }
+
+/**************
+Main style
+**************/
+main {
+    background-color: white;
+    margin: 30px;
+}
+
+main div {
+    padding: 10px 50px;
+}
+
+.buttons p {
+    display: inline;
+    background-color: #2fc4ff;   
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 10%;
+    border: 1px solid #dcdcdc;
+}
+
+#white_color {
+    background-color: white;
+}
