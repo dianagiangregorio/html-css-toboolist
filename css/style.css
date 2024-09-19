@@ -32,7 +32,6 @@ main {
     background-color: white;
     margin: 30px 200px;
     border-radius: 10px;
-    padding: 10px 50px;
 }
 
 .box {
@@ -42,7 +41,10 @@ main {
 
 #buttons {
     border-bottom: 2px solid #ededed;
-    padding: 5px;
+    padding: 10px 50px;
+}
+#all_tasks {
+    padding: 10px 50px;
 }
 
 button {
