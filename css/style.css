@@ -6,7 +6,7 @@ margin: 0;
 }
 
 body {
-    background-color: rgb(237, 237, 237);
+    background-color: #ededed;
 }
 
 .container {
@@ -32,13 +32,17 @@ main {
     margin: 30px;
 }
 
-main div {
+.box{
     padding: 10px 50px;
 }
 
-.buttons button {
+#buttons {
+    border-bottom: 2px solid #ededed;
+}
+
+button {
     display: inline;
-    background-color: #2fc4ff;   
+    background-color: #14aaf5;   
     padding: 5px 10px;
     font-size: 12px;
     border: 1px solid #dcdcdc;
@@ -47,4 +51,62 @@ main div {
 
 #white_color {
     background-color: white;
+}
+
+
+.mark {
+    border-radius: 50%;
+    display: inline-block;
+    padding: 5px;
+    font-size: 10px;
+    height: 10px;
+    width: 10px;
+    line-height: 10px;
+    text-align: center;
+    margin-right: 5px;
+}
+
+#check {
+    border: 1px solid #4fd0b9;
+    color: #4fd0b9;
+}
+
+#cross {
+    border: 1px solid red;
+    color: red;
+}
+
+h3 {
+padding-top: 30px;
+padding-left: 50px;
+}
+
+.target {
+    border-radius: 10px;
+    color: white;
+    font-size: 12px;
+    height: 20px;
+    width: 60px;
+    text-align: center;
+    line-height: 20px;
+    display: inline-block;
+}
+
+#editorial {
+    background-color: #09a9ed;
+}
+#goals {
+    background-color: #ab5de6;
+}
+#recruiting {
+    background-color: #2cc6ab;
+}
+#mobile {
+    background-color: #ff9b00;
+}
+#website {
+    background-color: #ec4a9d;
+}
+#sales {
+    background-color: #a3d116;
 }
