@@ -30,15 +30,19 @@ Main style
 **************/
 main {
     background-color: white;
-    margin: 30px;
-}
-
-.box{
+    margin: 30px 200px;
+    border-radius: 10px;
     padding: 10px 50px;
 }
 
+.box {
+    padding-bottom: 10px;
+}
+
+
 #buttons {
     border-bottom: 2px solid #ededed;
+    padding: 5px;
 }
 
 button {
@@ -54,6 +58,16 @@ button {
     background-color: white;
 }
 
+.tasks {
+    padding-top: 30px;
+}
+
+h5 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 22px;
+    }
 
 .mark {
     border-radius: 50%;
@@ -75,15 +89,6 @@ button {
 #cross {
     border: 1px solid red;
     color: red;
-}
-
-h5 {
-padding-top: 30px;
-padding-left: 50px;
-font-family: "Poppins", sans-serif;
-font-weight: 600;
-font-style: normal;
-font-size: 22px;
 }
 
 .target {
