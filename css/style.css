@@ -36,13 +36,13 @@ main div {
     padding: 10px 50px;
 }
 
-.buttons p {
+.buttons button {
     display: inline;
     background-color: #2fc4ff;   
     padding: 5px 10px;
     font-size: 12px;
-    border-radius: 10%;
     border: 1px solid #dcdcdc;
+    border-radius: 5%;
 }
 
 #white_color {
